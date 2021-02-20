@@ -2,8 +2,10 @@ package com.example.dl_af_test_app;
 
 import android.app.Application;
 import android.util.Log;
+
 import com.appsflyer.AppsFlyerLib;
 import com.appsflyer.AppsFlyerConversionListener;
+
 import java.util.Map;
 
 public class AFApplication extends Application {
@@ -48,6 +50,8 @@ public class AFApplication extends Application {
         AppsFlyerLib.getInstance().start(this);
 
     }
+
+
 
 
 }
