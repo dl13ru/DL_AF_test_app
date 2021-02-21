@@ -45,6 +45,8 @@ public class AFApplication extends Application {
             }
         };
 
+        AppsFlyerLib.getInstance().setDebugLog(true);
+
         AppsFlyerLib.getInstance().init(AF_DEV_KEY, conversionListener, this);
 
         AppsFlyerLib.getInstance().start(this);
